@@ -1,0 +1,38 @@
+{
+    "latex-workshop.latex.tools": [
+    {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+        ]
+    },
+    {
+        "name": "makenomenclature",
+        "command": "makeindex",
+        "args": [
+            "%DOCFILE%.nlo",
+            "-s",
+            "nomencl.ist",
+            "-o",
+            "%DOCFILE%.nls"
+        ]
+    },
+    ],
+
+    "latex-workshop.latex.recipes": [
+    {
+        "name": "xelatex -> makenomenclature -> xelatex x2",
+        "tools": [
+            "xelatex",           // 第一步：编译，生成 .nlo 文件
+            "makenomenclature",  // 第二步：处理缩略词表
+            "xelatex",           // 第三步：再次编译，引入缩略词表
+            "xelatex"            // 第四步：最后一次编译，确保所有引用解析完毕
+        ]
+    },
+
+    ]
+}
