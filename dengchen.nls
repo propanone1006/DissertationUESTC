@@ -1,22 +1,9 @@
 
 \begin{thenomenclature} 
-\nomgroup{Symbols}
-  \item &{4G}&\begingroup \nomdescr {Fourth Generation Mobile Communication Technology}\hspace *{\tabcolsep }\nomdescrchn {第四代移动通信技术}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-  \item &{5G}&\begingroup \nomdescr {Fifth Generation Mobile Communication Technology}\hspace *{\tabcolsep }\nomdescrchn {第五代移动通信技术}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-\nomgroup{B}
-  \item &{B5G}&\begingroup \nomdescr {Beyond 5G}\hspace *{\tabcolsep }\nomdescrchn {超五代移动通信技术}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
 \nomgroup{L}
-  \item &{LP}&\begingroup \nomdescr {Linear Programming}\hspace *{\tabcolsep }\nomdescrchn {线性规划}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-\nomgroup{M}
-  \item &{mMIMO}&\begingroup \nomdescr {massive Multiple Input Multiple Output}\hspace *{\tabcolsep }\nomdescrchn {大规模多输入多输出}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-\nomgroup{N}
-  \item &{NLP}&\begingroup \nomdescr {non-linear programming}\hspace *{\tabcolsep }\nomdescrchn {非线性规划}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-  \item &{NSA}&\begingroup \nomdescr {Non-Standalone}\hspace *{\tabcolsep }\nomdescrchn {非独立组网}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-\nomgroup{P}
-  \item &{PLE}&\begingroup \nomdescr {Path Loss Exponent}\hspace *{\tabcolsep }\nomdescrchn {路径损失指数}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-\nomgroup{Q}
-  \item &{QoS}&\begingroup \nomdescr {Quality of Service}\hspace *{\tabcolsep }\nomdescrchn {服务质量}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
-\nomgroup{S}
-  \item &{SLA}&\begingroup \nomdescr {Service Level Agreement}\hspace *{\tabcolsep }\nomdescrchn {服务水平协议}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
+  \item &{LLM}&\begingroup \nomdescr {Large Language Model}\hspace *{\tabcolsep }\nomdescrchn {大语言模型}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
+\nomgroup{T}
+  \item &{TPOT}&\begingroup \nomdescr {Time Per Output Token}\hspace *{\tabcolsep }\nomdescrchn {每 Token 平均延迟}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
+  \item &{TTFT}&\begingroup \nomdescr {Time to First Token}\hspace *{\tabcolsep }\nomdescrchn {首 Token 延迟}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{V}
 
 \end{thenomenclature}

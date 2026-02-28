@@ -1,17 +1,48 @@
 \contentsline {chapter}{\numberline {第一章}绪论}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {第二章}相关技术基础和方法}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}大语言模型LLM推理机制}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}vLLM与内存管理机制}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}异常检测算法基础}{2}{section.2.3}%
-\contentsline {chapter}{\numberline {第三章}基于多维资源特征的拒绝服务攻击}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {第四章}基于缓存侧信道的攻击检测研究}{4}{chapter.4}%
-\contentsline {chapter}{\numberline {第五章}总结和展望}{5}{chapter.5}%
-\contentsline {section}{\numberline {5.1}工作总结}{5}{section.5.1}%
-\contentsline {section}{\numberline {5.2}后续工作展望}{5}{section.5.2}%
-\contentsline {chapter}{致\hspace {1em}谢}{6}{chapter*.7}%
-\contentsline {chapter}{参考文献}{7}{section*.8}%
-\contentsline {chapter}{\numberline {附录A}九阴真经原本}{7}{appendix.A}%
-\contentsline {section}{\numberline {A.1}总纲（核心心法）}{7}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}梵文总纲（后由郭靖、黄蓉译解）：}{7}{subsection.A.1.1}%
-\contentsline {chapter}{攻读硕士学位期间取得的成果}{8}{appendix*.9}%
+\contentsline {section}{\numberline {1.1}研究背景与意义}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}国内外研究现状}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}基于输入内容的攻击检测}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}基于系统行为与微观架构的攻击检测}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}基于机器学习与分布外检测（OOD）的防御方法}{3}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}论文主要工作及创新}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}论文结构安排}{5}{section.1.4}%
+\contentsline {chapter}{\numberline {第二章}相关技术基础和方法}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}大语言模型推理机制与算力瓶颈}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Transformer 架构与自回归解码}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}KV Cache 加速原理与内存映射}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}双阶段推理的算力瓶颈分析：Prefill 与 Decode}{7}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}高性能推理系统的内存调度机制}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}传统内存管理的碎片化困境}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}PagedAttention 原理与块表映射}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Prefix Caching 与前缀复用漏洞}{10}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}针对大模型推理服务的新型安全威胁模型}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}攻击者能力与假设}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}拒绝服务（DDoS）攻击面：算力墙压榨}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}缓存侧信道（Side-Channel）攻击面：内存墙穿透}{12}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}异常检测与机器学习分类理论}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}时间序列统计特征与双峰判定}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}孤立森林（Isolation Forest）与 OOD 检测}{13}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}基于 LightGBM 的多维特征分类算法}{14}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}本章小结}{14}{section.2.5}%
+\contentsline {chapter}{\numberline {第三章}基于多维资源特征的拒绝服务攻击}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}研究背景}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}大模型推理异常检测系统设计}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}系统总体架构}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}推理请求生命周期分析}{17}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}多维特征分析}{19}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}监控指标选取标准}{19}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}特征介绍}{19}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}实验环境与数据介绍}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}硬件与模型配置}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}性能评估标准}{20}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}参数选取实验}{20}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}实验结果分析}{20}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {第四章}基于缓存侧信道的攻击检测研究}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}研究背景}{21}{section.4.1}%
+\contentsline {chapter}{\numberline {第五章}总结和展望}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}工作总结}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}后续工作展望}{23}{section.5.2}%
+\contentsline {chapter}{致\hspace {1em}谢}{24}{chapter*.13}%
+\contentsline {chapter}{参考文献}{25}{section*.14}%
+\contentsline {chapter}{攻读硕士学位期间取得的成果}{26}{chapter*.16}%
 \contentsfinish 

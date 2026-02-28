@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{检测NLP中的对抗样本}
+Armstrong e~a.
+\newblock Detecting adversarial examples in nlp[J].
+\newblock Unknown, Unknown.
+
+\bibitem{基线防御针对对齐语言模型的对抗攻击}
+Jain e~a.
+\newblock Baseline defenses for adversarial attacks against aligned language models[J].
+\newblock arXiv preprint, 2023.
+
+\bibitem{高效推理接口上的远程定时攻击}
+Nicholas~Carlini e~a.
+\newblock Remote timing attacks on efficient language model inference[J].
+\newblock arXiv preprint, 2024ArXiv:2410.17175.
+
+\bibitem{早起的鸟儿发现漏洞：揭示大型语言模型服务系统中的定时侧信道}
+Linke~Song e~a.
+\newblock The early bird catches the leak: Unveiling timing side channels in llm serving systems[J].
+\newblock arXiv preprint, 2024, ArXiv:2409.20002v1.
+
+\bibitem{输出Token数量的定时侧信道攻击}
+Tianchen~Zhang e~a.
+\newblock Time will tell: Timing side channels via output token count in large language models[J].
+\newblock arXiv preprint, 2024ArXiv:2412.15431.
+
+\bibitem{共享缓存中的定时侧信道攻击}
+Xinyao~Zheng e~a.
+\newblock Inputsnatch: Stealing input in llm services via timing side-channel attacks[J].
+\newblock arXiv preprint, 2024ArXiv:2411.18191.
+
+\bibitem{缓存中的阴影：揭示并缓解KV-缓存在大型语言模型推断中的隐私风险}
+Zhifan~Luo e~a.
+\newblock Shadow in the cache: Unveiling and mitigating privacy risks of kv-cache in llm inference[J].
+\newblock arXiv preprint, 2025ArXiv:2508.09442v1.
+
+\bibitem{对大型语言模型的端侧信道攻击}
+Geoff~McDonald e~a.
+\newblock Whisper leak: A side-channel attack on large language models[J].
+\newblock arXiv preprint, 2025ArXiv:2511.03675v1.
+
+\bibitem{基于深度学习的云网络中分布式拒绝服务检测系统}
+Deniz E, Serttaş S.
+\newblock Deep learning-based distributed denial of service detection system in the cloud network[J].
+\newblock Journal of Scientific Reports-A, 2023, (055): 16–33.
+
+\bibitem{基于机器学习的缓存侧信道攻击检测}
+Zhongkai~Tong e~a.
+\newblock Cache side-channel attacks detection based on machine learning[J].
+\newblock ResearchGate, 2020.
+
+\bibitem{基于LSTM的编码器-解码器用于多传感器异常检测}
+Malhotra P, et~al.
+\newblock Lstm-based encoder-decoder for multi-sensor anomaly detection[J].
+\newblock arXiv preprint, 2016ArXiv:1607.00148.
+
+\end{thebibliography}

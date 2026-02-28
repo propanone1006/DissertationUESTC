@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.4)  21 FEB 2026 09:09
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.4)  28 FEB 2026 22:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1522,22 +1522,22 @@ Overfull \hbox (1.50562pt too wide) in paragraph at lines 36--36
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [2]
-Overfull \hbox (1.00371pt too wide) in paragraph at lines 78--78
+Overfull \hbox (1.00371pt too wide) in paragraph at lines 77--77
  [][]| [] 
  []
 
 
-Overfull \hbox (1.00372pt too wide) in paragraph at lines 78--78
+Overfull \hbox (1.00372pt too wide) in paragraph at lines 77--77
 [][]| [] 
  []
 
@@ -1586,9 +1586,8 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 
 [2
 
-] (./dengchen.toc)
-\tf@toc=\write6
-\openout6 = `dengchen.toc'.
+] (./dengchen.toc
+Underfull \vbox (badness 7869) has occurred while \output is active []
 
 
 
@@ -1601,30 +1600,9 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 
 [3
 
-]
-Overfull \hbox (5.8875pt too wide) in alignment at lines 115--115
- [] [] [] 
- []
-
-
-Overfull \hbox (5.8875pt too wide) in alignment at lines 115--115
- [] [] [] 
- []
-
-
-Overfull \hbox (5.8875pt too wide) in alignment at lines 115--115
- [] [] [] 
- []
-
-
-Overfull \hbox (5.8875pt too wide) in alignment at lines 115--115
- [] [] [] 
- []
-
-
-Overfull \hbox (5.8875pt too wide) in alignment at lines 115--122
- [] [] [] 
- []
+])
+\tf@toc=\write6
+\openout6 = `dengchen.toc'.
 
 
 
@@ -1635,9 +1613,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[4
-
-] (./dengchen.nls
+[4] (./dengchen.nls
 Overfull \hbox (3.01126pt too wide) in alignment at lines 2--2
  [] [] [] [] [] [] 
  []
@@ -1658,7 +1634,7 @@ Overfull \hbox (3.01126pt too wide) in alignment at lines 2--2
  []
 
 
-Overfull \hbox (3.01126pt too wide) in alignment at lines 2--22
+Overfull \hbox (3.01126pt too wide) in alignment at lines 2--9
  [] [] [] [] [] [] 
  []
 
@@ -1687,60 +1663,50 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 [1
 
 ]
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[2]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[3]
+Underfull \vbox (badness 4595) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[4]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[5]
 Chapter 第二章.
-File: ./fig/QuestLifecycle.png Graphic file (type bmp)
-<./fig/QuestLifecycle.png>
 
-
-
-Package fancyhdr Warning: \headheight is too small (9.03374pt): 
-(fancyhdr)                Make it at least 12.64723pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.64723pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
-
-[2
-
-]
-Chapter 第三章.
-
-
-
-Package fancyhdr Warning: \headheight is too small (9.03374pt): 
-(fancyhdr)                Make it at least 12.64723pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.64723pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
-
-[3
-
-]
-Chapter 第四章.
-
-
-
-Package fancyhdr Warning: \headheight is too small (9.03374pt): 
-(fancyhdr)                Make it at least 12.64723pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.64723pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
-
-[4
-
-]
-Chapter 第五章.
-
-
-
-Package fancyhdr Warning: \headheight is too small (9.03374pt): 
-(fancyhdr)                Make it at least 12.64723pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.64723pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
-
-[5
-
-]
 
 
 Package fancyhdr Warning: \headheight is too small (9.03374pt): 
@@ -1752,8 +1718,8 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 [6
 
 ]
-No file dengchen.bbl.
-附录 附录A.
+File: ./fig/dc_第3步推理有无KVC加速对比示意图.png Graphic file (type bmp)
+<./fig/dc_第3步推理有无KVC加速对比示意图.png>
 
 
 
@@ -1763,10 +1729,13 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[7
+[7]
+File: ./fig/dc_LLM双阶段推理机制与资源消耗对比图.png Graphic file (type bmp)
+<./fig/dc_LLM双阶段推理机制与资源消耗对比图.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-]
 
 
 Package fancyhdr Warning: \headheight is too small (9.03374pt): 
@@ -1775,11 +1744,47 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[8
+[8]
+File: ./fig/dc_PagedAttention 逻辑块映射与 Prefix Caching 共享复用机制.png Graphic file (type bmp)
+<./fig/dc_PagedAttention 逻辑块映射与 Prefix Caching 共享复用机制.png>
 
-]
-Underfull \hbox (badness 2245) in paragraph at lines 215--216
-[]\TU/SimSun(1)/b/n/12.045 作 者 \TU/times(0)/b/n/12.045 1\TU/times(0)/m/n/12.045 , \TU/SimSun(1)/m/n/12.045 作 者 \TU/times(0)/m/n/12.045 2*, \TU/SimSun(1)/m/n/12.045 作 者 \TU/times(0)/m/n/12.045 3, \TU/SimSun(1)/m/n/12.045 作 者 \TU/times(0)/m/n/12.045 4\TU/SimSun(1)/m/n/12.045 。|  一 种 基 于 \TU/times(0)/m/n/12.045 xxxxx \TU/SimSun(1)/m/n/12.045 的 真 气 运 转 方 法\TU/times(0)/m/n/12.045 :
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[9]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[11]
+Underfull \hbox (badness 2503) in paragraph at lines 347--348
+[]\TU/SimSun(1)/m/n/12.045 单 个 请 求 的 延 迟 往 往 包 含 系 统 随 机 噪 声，|  为 了 过 滤 瞬 态 抖 动，|  本 文 引
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 347--348
+\TU/SimSun(1)/m/n/12.045 入 了 滑 动 时 间 窗 口  |（\TU/times(0)/m/n/12.045 Sliding Window\TU/SimSun(1)/m/n/12.045 ）|  机 制。|  给 定 按 时 间 戳 排 序 的 观 测 序 列
  []
 
 
@@ -1791,21 +1796,190 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[9] (./dengchen.aux)
+[12]
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 360--375
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[14]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[15]
+Chapter 第三章.
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[16
+
+]
+File: ./fig/dc_系统总体架构.png Graphic file (type bmp)
+<./fig/dc_系统总体架构.png>
+File: ./fig/dc_请求的生命周期.png Graphic file (type bmp)
+<./fig/dc_请求的生命周期.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[17]
+Underfull \vbox (badness 2310) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[18]
+Underfull \hbox (badness 1127) in paragraph at lines 477--478
+[]\TU/SimSun(1)/m/n/12.045 为 了 从 多 维 度 刻 画 系 统 状 态，|  本 文 选 取 了 以 下 指 标 构 建 特 征 向 量 $\OT1/cmr/bx/n/12.045 F \OT1/cmr/m/n/12.045 =
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[19]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[20]
+Chapter 第四章.
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[21
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[22]
+Chapter 第五章.
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[23
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[24
+
+] (./dengchen.bbl)
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[25
+
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[26
+
+] (./dengchen.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `dengchen.out' has not changed.
-(rerunfilecheck)             Checksum: 5EB0E57832B03450B07AE14B19A2AEF7;3008.
+(rerunfilecheck)             Checksum: DE889C99BA065CC6DDA3A6FDFE98F7A9;8707.
  ) 
 Here is how much of TeX's memory you used:
- 50002 strings out of 473832
- 1041172 string characters out of 5733159
- 1516622 words of memory out of 5000000
- 72255 multiletter control sequences out of 15000+600000
- 566888 words of font info for 136 fonts, out of 8000000 for 9000
+ 50345 strings out of 473832
+ 1056706 string characters out of 5733159
+ 1536077 words of memory out of 5000000
+ 72578 multiletter control sequences out of 15000+600000
+ 571638 words of font info for 161 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 125i,11n,134p,1071b,969s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,18n,134p,1071b,1063s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dengchen.pdf (18 pages).
+Output written on dengchen.pdf (35 pages).

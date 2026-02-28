@@ -1,10 +1,3 @@
-\nomenclatureentry{LP@&{LP}&\begingroup \nomdescr {Linear Programming}\hspace *{\tabcolsep }\nomdescrchn {线性规划}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{PLE@&{PLE}&\begingroup \nomdescr {Path Loss Exponent}\hspace *{\tabcolsep }\nomdescrchn {路径损失指数}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{QoS@&{QoS}&\begingroup \nomdescr {Quality of Service}\hspace *{\tabcolsep }\nomdescrchn {服务质量}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{SLA@&{SLA}&\begingroup \nomdescr {Service Level Agreement}\hspace *{\tabcolsep }\nomdescrchn {服务水平协议}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{NLP@&{NLP}&\begingroup \nomdescr {non-linear programming}\hspace *{\tabcolsep }\nomdescrchn {非线性规划}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{4G@&{4G}&\begingroup \nomdescr {Fourth Generation Mobile Communication Technology}\hspace *{\tabcolsep }\nomdescrchn {第四代移动通信技术}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{5G@&{5G}&\begingroup \nomdescr {Fifth Generation Mobile Communication Technology}\hspace *{\tabcolsep }\nomdescrchn {第五代移动通信技术}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{B5G@&{B5G}&\begingroup \nomdescr {Beyond 5G}\hspace *{\tabcolsep }\nomdescrchn {超五代移动通信技术}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{NSA@&{NSA}&\begingroup \nomdescr {Non-Standalone}\hspace *{\tabcolsep }\nomdescrchn {非独立组网}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
-\nomenclatureentry{mMIMO@&{mMIMO}&\begingroup \nomdescr {massive Multiple Input Multiple Output}\hspace *{\tabcolsep }\nomdescrchn {大规模多输入多输出}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
+\nomenclatureentry{LLM@&{LLM}&\begingroup \nomdescr {Large Language Model}\hspace *{\tabcolsep }\nomdescrchn {大语言模型}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
+\nomenclatureentry{TTFT@&{TTFT}&\begingroup \nomdescr {Time to First Token}\hspace *{\tabcolsep }\nomdescrchn {首 Token 延迟}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}
+\nomenclatureentry{TPOT@&{TPOT}&\begingroup \nomdescr {Time Per Output Token}\hspace *{\tabcolsep }\nomdescrchn {每 Token 平均延迟}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}|nompageref}{V}

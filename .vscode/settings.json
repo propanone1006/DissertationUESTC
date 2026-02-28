@@ -1,38 +1,48 @@
 {
     "latex-workshop.latex.tools": [
-    {
-        "name": "xelatex",
-        "command": "xelatex",
-        "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "%DOC%"
-        ]
-    },
-    {
-        "name": "makenomenclature",
-        "command": "makeindex",
-        "args": [
-            "%DOCFILE%.nlo",
-            "-s",
-            "nomencl.ist",
-            "-o",
-            "%DOCFILE%.nls"
-        ]
-    },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "makenomenclature",
+            "command": "makeindex",
+            "args": [
+                "%DOCFILE%.nlo",
+                "-s",
+                "nomencl.ist",
+                "-o",
+                "%DOCFILE%.nls"
+            ]
+        }
     ],
 
     "latex-workshop.latex.recipes": [
-    {
-        "name": "xelatex -> makenomenclature -> xelatex x2",
-        "tools": [
-            "xelatex",           // 第一步：编译，生成 .nlo 文件
-            "makenomenclature",  // 第二步：处理缩略词表
-            "xelatex",           // 第三步：再次编译，引入缩略词表
-            "xelatex"            // 第四步：最后一次编译，确保所有引用解析完毕
-        ]
-    },
+        {
+            "name": "xelatex → bibtex → xelatex → makenomenclature → xelatex",
+            "tools": [
+                "xelatex",           // 第一次编译，生成 .aux 和 .nlo
+                "bibtex",            // 处理参考文献，生成 .bbl
+                "xelatex",           // 第二次编译，将参考文献和缩略词引用加入
+                "makenomenclature",  // 处理缩略词，生成 .nls
+                "xelatex"            // 第三次编译，最终确定所有交叉引用
+            ]
+        }
+    ],
 
-    ]
+    // （可选）将上述 recipe 设为默认编译方案
+    "latex-workshop.latex.recipe.default": "xelatex → bibtex → xelatex → makenomenclature → xelatex"
 }
