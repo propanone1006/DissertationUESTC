@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.4)  28 FEB 2026 22:23
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.4)  2 MAR 2026 05:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1423,42 +1423,42 @@ Package fontspec Info:
 )
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
-(Font)                  TU/SimSun(1)/m/n --> TU/SimSun(1)/b/n on input line 5.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 5.
+(Font)                  TU/SimSun(1)/m/n --> TU/SimSun(1)/b/n on input line 12.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 12.
  (./dengchen.aux)
 \openout1 = `dengchen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 5.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 12.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 12.
  (d:/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    ... okay on input line 12.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 5.
+Package layouts Warning: Layout scale set to 0.5 on input line 12.
 
-Package hyperref Info: Link coloring ON on input line 5.
+Package hyperref Info: Link coloring ON on input line 12.
 (./dengchen.out) (./dengchen.out)
 \@outlinefile=\write5
 \openout5 = `dengchen.out'.
@@ -1478,17 +1478,17 @@ Package caption Info: End \AtBeginDocument code.
  (d:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 5.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 12.
 \c@lstlisting=\count534
 Package tocbasic Info: omitting babel extension for `lol'
-(tocbasic)             because of missing \bbl@set@language on input line 5.
+(tocbasic)             because of missing \bbl@set@language on input line 12.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 5.
+Package chemgreek Info: Activating mapping `fontspec' on line 12.
 
  (d:/texlive/2025/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-Overfull \hbox (19.72725pt too wide) in paragraph at lines 36--36
+Overfull \hbox (19.72725pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
@@ -1513,7 +1513,7 @@ Package fontspec Info:
 (fontspec)             <->"[./font/STZHONGS]/OT:script=hani;language=dflt;embolden=2;slant=0.3;"
 
 
-Overfull \hbox (1.50562pt too wide) in paragraph at lines 36--36
+Overfull \hbox (1.50562pt too wide) in paragraph at lines 43--43
  [][] 
  []
 
@@ -1522,22 +1522,22 @@ Overfull \hbox (1.50562pt too wide) in paragraph at lines 36--36
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [2]
-Overfull \hbox (1.00371pt too wide) in paragraph at lines 77--77
+Overfull \hbox (1.00371pt too wide) in paragraph at lines 84--84
  [][]| [] 
  []
 
 
-Overfull \hbox (1.00372pt too wide) in paragraph at lines 77--77
+Overfull \hbox (1.00372pt too wide) in paragraph at lines 84--84
 [][]| [] 
  []
 
@@ -1576,6 +1576,9 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 [1
 
 ]
+Underfull \vbox (badness 5403) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (9.03374pt): 
@@ -1586,7 +1589,16 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 
 [2
 
-] (./dengchen.toc
+]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[3] (./dengchen.toc
 Underfull \vbox (badness 7869) has occurred while \output is active []
 
 
@@ -1598,9 +1610,21 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[3
+[4
 
-])
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[5])
 \tf@toc=\write6
 \openout6 = `dengchen.toc'.
 
@@ -1613,7 +1637,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[4] (./dengchen.nls
+[6] (./dengchen.nls
 Overfull \hbox (3.01126pt too wide) in alignment at lines 2--2
  [] [] [] [] [] [] 
  []
@@ -1647,7 +1671,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[5
+[7
 
 ]
 Chapter 第一章.
@@ -1778,12 +1802,12 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
 [11]
-Underfull \hbox (badness 2503) in paragraph at lines 347--348
+Underfull \hbox (badness 2503) in paragraph at lines 368--369
 []\TU/SimSun(1)/m/n/12.045 单 个 请 求 的 延 迟 往 往 包 含 系 统 随 机 噪 声，|  为 了 过 滤 瞬 态 抖 动，|  本 文 引
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 347--348
+Underfull \hbox (badness 1694) in paragraph at lines 368--369
 \TU/SimSun(1)/m/n/12.045 入 了 滑 动 时 间 窗 口  |（\TU/times(0)/m/n/12.045 Sliding Window\TU/SimSun(1)/m/n/12.045 ）|  机 制。|  给 定 按 时 间 戳 排 序 的 观 测 序 列
  []
 
@@ -1797,7 +1821,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
 [12]
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 360--375
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 381--396
  [][] 
  []
 
@@ -1850,8 +1874,6 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 ]
 File: ./fig/dc_系统总体架构.png Graphic file (type bmp)
 <./fig/dc_系统总体架构.png>
-File: ./fig/dc_请求的生命周期.png Graphic file (type bmp)
-<./fig/dc_请求的生命周期.png>
 
 
 
@@ -1862,7 +1884,10 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
 [17]
-Underfull \vbox (badness 2310) has occurred while \output is active []
+File: ./fig/dc_请求的生命周期.png Graphic file (type bmp)
+<./fig/dc_请求的生命周期.png>
+
+Underfull \vbox (badness 6316) has occurred while \output is active []
 
 
 
@@ -1874,9 +1899,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
 [18]
-Underfull \hbox (badness 1127) in paragraph at lines 477--478
-[]\TU/SimSun(1)/m/n/12.045 为 了 从 多 维 度 刻 画 系 统 状 态，|  本 文 选 取 了 以 下 指 标 构 建 特 征 向 量 $\OT1/cmr/bx/n/12.045 F \OT1/cmr/m/n/12.045 =
- []
+Underfull \vbox (badness 7291) has occurred while \output is active []
 
 
 
@@ -1888,6 +1911,9 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
 [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (9.03374pt): 
@@ -1897,6 +1923,127 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
 [20]
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[21]
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[22]
+Underfull \hbox (badness 1859) in paragraph at lines 648--649
+[]\TU/SimSun(1)/m/n/12.045 设 定 模 型 的 超 参 数 空 间 为 $\OMS/cmsy/m/n/12.045 X$\TU/SimSun(1)/m/n/12.045 ，|  待 优 化 的 黑 盒 目 标 函 数  |（本 文 定 义 为 验
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 648--649
+\TU/SimSun(1)/m/n/12.045 证 集 上 的 \TU/times(0)/m/n/12.045 F1-Score\TU/SimSun(1)/m/n/12.045 ）|  为 $\OML/cmm/m/it/12.045 f\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 x\OT1/cmr/m/n/12.045 )$\TU/SimSun(1)/m/n/12.045 。|  贝 叶 斯 优 化 的 核 心 在 于 通 过 已 有 的 观 测 集
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[24]
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[25]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[26]
+Underfull \vbox (badness 7238) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[27]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[28]
 Chapter 第四章.
 
 
@@ -1907,7 +2054,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[21
+[29
 
 ]
 
@@ -1918,7 +2065,25 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[22]
+[30]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[31]
+
+
+Package fancyhdr Warning: \headheight is too small (9.03374pt): 
+(fancyhdr)                Make it at least 12.64723pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.64723pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
+
+[32]
 Chapter 第五章.
 
 
@@ -1929,7 +2094,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[23
+[33
 
 ]
 
@@ -1940,7 +2105,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[24
+[34
 
 ] (./dengchen.bbl)
 
@@ -1951,7 +2116,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[25
+[35
 
 
 ]
@@ -1963,7 +2128,7 @@ Package fancyhdr Warning: \headheight is too small (9.03374pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.6135pt}.
 
-[26
+[36
 
 ] (./dengchen.aux)
  ***********
@@ -1971,15 +2136,15 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `dengchen.out' has not changed.
-(rerunfilecheck)             Checksum: DE889C99BA065CC6DDA3A6FDFE98F7A9;8707.
+(rerunfilecheck)             Checksum: B63128062C01B30317730E438AA43595;13393.
  ) 
 Here is how much of TeX's memory you used:
- 50345 strings out of 473832
- 1056706 string characters out of 5733159
- 1536077 words of memory out of 5000000
- 72578 multiletter control sequences out of 15000+600000
- 571638 words of font info for 161 fonts, out of 8000000 for 9000
+ 50422 strings out of 473832
+ 1059889 string characters out of 5733159
+ 1542722 words of memory out of 5000000
+ 72645 multiletter control sequences out of 15000+600000
+ 571678 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 125i,18n,134p,1071b,1063s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,18n,134p,1071b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dengchen.pdf (35 pages).
+Output written on dengchen.pdf (47 pages).
