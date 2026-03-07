@@ -1,9 +1,0 @@
-
-\begin{thenomenclature} 
-\nomgroup{L}
-  \item &{LLM}&\begingroup \nomdescr {Large Language Model}\hspace *{\tabcolsep }\nomdescrchn {大语言模型}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{VII}
-\nomgroup{T}
-  \item &{TPOT}&\begingroup \nomdescr {Time Per Output Token}\hspace *{\tabcolsep }\nomdescrchn {每 Token 平均延迟}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{VII}
-  \item &{TTFT}&\begingroup \nomdescr {Time to First Token}\hspace *{\tabcolsep }\nomdescrchn {首 Token 延迟}\endgroup &\unit {}&\begingroup \endgroup &\begingroup \nomeqref {0-0}\nompageref{VII}
-
-\end{thenomenclature}
