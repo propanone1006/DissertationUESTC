@@ -44,5 +44,6 @@
     ],
 
     // （可选）将上述 recipe 设为默认编译方案
-    "latex-workshop.latex.recipe.default": "xelatex → bibtex → xelatex → makenomenclature → xelatex"
+    "latex-workshop.latex.recipe.default": "xelatex → bibtex → xelatex → makenomenclature → xelatex",
+    "latex-workshop.latex.autoBuild.run": "onSave",
 }

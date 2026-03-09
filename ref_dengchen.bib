@@ -1,4 +1,56 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ========== LLM 基础架构与推理服务引擎 (vLLM/Transformer) ==========
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{注意力机制是所有你需要的一切,
+  title={Attention is all you need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  pages={5998--6008},
+  year={2017}
+}
+
+@inproceedings{利用PagedAttention进行大型语言模型服务的高效内存管理,
+  title={Efficient Memory Management for Large Language Model Serving with PagedAttention},
+  author={Kwon, Woosuk and Li, Zhuohan and Zhuang, Siyuan and Sheng, Ying and Zheng, Lianmin and Yu, Cody Hao and Gonzalez, Joseph E and Zhang, Hao and Gonzalez, Joseph E},
+  booktitle={Proceedings of the 29th Symposium on Operating Systems Principles (SOSP)},
+  pages={611--626},
+  year={2023}
+}
+
+@inproceedings{Orca基于Transformer的生成模型的分布式服务系统,
+  title={Orca: A Distributed Serving System for {Transformer}-Based Generative Models},
+  author={Yu, Gyeong-In and Jeong, Joo Seong and Kim, Geon-Woo and Kim, Soojeong and Lee, Byung-Gon},
+  booktitle={16th USENIX Symposium on Operating Systems Design and Implementation (OSDI)},
+  pages={521--538},
+  year={2022}
+}
+
+@article{Qwen技术报告,
+  title={Qwen Technical Report},
+  author={Bai, Jinze and Bai, Shuai and Chu, Yunfei and Cui, Zeyu and Dang, Kai and Deng, Xiaodong and Fan, Yang and Ge, Wenbin and Han, Yu and others},
+  journal={arXiv preprint},
+  year={2023},
+  note={arXiv:2309.16609}
+}
+
+@inproceedings{FlashAttention快速且内存高效的精确注意力机制,
+  title={FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness},
+  author={Dao, Tri and Fu, Daniel Y and Ermon, Stefano and Rudra, Atri and R{\'e}, Christopher},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  pages={15400--15414}
+}
+
+@inproceedings{DeepSpeed实现前所未有规模的Transformer模型高效推理,
+  title={DeepSpeed-Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale},
+  author={Aminabadi, Reza Yazdani and Rajbhandari, Samyam and Awan, Ammar Ahmad and Li, Cheng and Li, Du and Zheng, Elton and Ruwase, Olatunji and Smith, Shaden and others},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC)},
+  year={2022},
+  pages = {},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ========== LLM Timing Side-Channel 相关 ==========
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -30,7 +82,8 @@
   title={Whisper Leak Source Code},
   type={EB/OL},
   year={2025},
-  url={https://github.com/yo-yo-yo-jbo/whisper_leak}
+  url={https://github.com/yo-yo-yo-jbo/whisper_leak},
+  modifydate={2025-11-20}
 }
 
 @article{高效推理接口上的远程定时攻击,
@@ -146,5 +199,163 @@
  	keywords={Cybersecurity, Cloud computing, Distributed denial of service, Deep learning, Anomaly detection, OpenStack, Long short-term memory}, 
  	abstract={Cloud computing offers an efficient solution that enables businesses and users to deliver flexible and scalable services by sharing resources. However, this shared resource pool also exposes vulnerabilities to various cyber threats, such as Distributed Denial of Service (DDoS) attacks. These DDoS attacks, due to their potential impact, can be highly destructive and disruptive. They render servers unable to serve users, leading to system crashes. Moreover, they can severely tarnish the reputation of organizations and result in significant financial losses. Consequently, DDoS attacks are among the most critical threats faced by institutions and organizations.
 	The primary objective of this study is to identify and detect DDoS attacks within cloud computing environments. Given the challenges associated with acquiring a cloud-based dataset, the main motivation behind this research was to construct a dataset within a cloud-based system and subsequently evaluate the intrusion detection capabilities of deep learning (DL) algorithms using this dataset. Initially, an HTTP flood attack was executed after creating a network topology within the OpenStack framework. The study employed Convolutional Neural Network (CNN), Artificial Neural Network (ANN), and Long Short-Term Memory (LSTM) models for attack detection. The performance of these models was assessed using various measurement metrics, and it was found that the LSTM model delivered the most impressive results, achieving an accuracy rate of 98%.}, 
-	number={055}
+  number={055},
+  volume = {},
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ========== 资源耗尽攻击与 DDoS 理论 (算力压榨/长尾延迟) ==========
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{海绵样本针对神经网络的能量与延迟攻击,
+  title={Sponge Examples: Energy-Latency Attacks on Neural Networks},
+  author={Shumailov, Ilia and Zhao, Yiren and Bates, Daniel and Papernot, Nicolas and Mullins, Robert and Anderson, Ross},
+  booktitle={2021 IEEE European Symposium on Security and Privacy (EuroS\&P)},
+  pages={212--231},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{针对分布式拒绝服务泛洪攻击的防御机制综述,
+  title={A survey of defense mechanisms against distributed denial of service (DDoS) flooding attacks},
+  author={Zargar, Saman Taghavi and Joshi, James and Tipper, David},
+  journal={IEEE Communications Surveys \& Tutorials},
+  volume={15},
+  number={4},
+  pages={2046--2069},
+  year={2013}
+}
+
+@article{规模化环境下的长尾延迟问题,
+  title={The tail at scale},
+  author={Dean, Jeffrey and Barroso, Luiz Andr{\'e}},
+  journal={Communications of the ACM},
+  volume={56},
+  number={2},
+  pages={74--80},
+  year={2013}
+}
+
+@inproceedings{分布式拒绝服务攻击的统计学检测与响应方法,
+  title={Statistical approaches to DDoS attack detection and response},
+  author={Feinstein, Laura and Schnackenberg, Dan and Balupari, Ravindra and Kindred, Darrell},
+  booktitle={Proceedings of the DARPA Information Survivability Conference and Exposition},
+  volume={1},
+  pages={303--314},
+  year={2003}
+}
+
+@article{齐普夫定律与互联网分布,
+  title={Zipf's law and the Internet},
+  author={Adamic, Lada A and Huberman, Bernardo A},
+  journal={Glottometrics},
+  volume={3},
+  number={1},
+  pages={143--150},
+  year={2002}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ========== 物理与缓存侧信道攻击 (Side-Channel) ==========
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{Flush+Reload高分辨率低噪声的L3缓存侧信道攻击,
+  title={Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack},
+  author={Yarom, Yuval and Falkner, Katrina},
+  booktitle={23rd USENIX Security Symposium (USENIX Security 14)},
+  pages={719--732},
+  year={2014}
+}
+
+@inproceedings{缓存攻击与对策以AES为例,
+  title={Cache attacks and countermeasures: the case of AES},
+  author={Osvik, Dag Arne and Shamir, Adi and Tromer, Eran},
+  booktitle={Cryptographers’ Track at the RSA Conference},
+  pages={1--20},
+  year={2006},
+  organization={Springer}
+}
+
+@article{现代硬件上微架构定时攻击与对策的综述,
+  title={A survey of microarchitectural timing attacks and countermeasures on contemporary hardware},
+  author={Ge, Qian and Yarom, Yuval and Cock, David and Heiser, Gernot},
+  journal={Journal of Cryptographic Engineering},
+  volume={8},
+  number={1},
+  pages={1--27},
+  year={2018}
+}
+
+@inproceedings{CacheTelepathy利用共享资源攻击学习DNN架构,
+  title={Cache Telepathy: Leveraging Shared Resource Attacks to Learn DNN Architectures},
+  author={Yan, Mengjia and Fletcher, Christopher W and Torrellas, Josep},
+  booktitle={29th USENIX Security Symposium (USENIX Security 20)},
+  pages={2003--2020},
+  year={2020}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ========== 机器学习算法、异常检测与贝叶斯优化 ==========
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{LightGBM高效梯度提升决策树,
+  title={LightGBM: A Highly Efficient Gradient Boosting Decision Tree},
+  author={Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  pages={3146--3154},
+  year={2017}
+}
+
+@inproceedings{孤立森林算法,
+  title={Isolation Forest},
+  author={Liu, Fei Tony and Ting, Kai Ming and Zhou, Zhi-Hua},
+  booktitle={2008 Eighth IEEE International Conference on Data Mining (ICDM)},
+  pages={413--422},
+  year={2008},
+  organization={IEEE}
+}
+
+@inproceedings{机器学习算法的实用贝叶斯优化,
+  title={Practical bayesian optimization of machine learning algorithms},
+  author={Snoek, Jasper and Larochelle, Hugo and Adams, Ryan P},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  pages={2951--2959},
+  year={2012}
+}
+
+@inproceedings{XGBoost可扩展的树提升系统,
+  title={XGBoost: A scalable tree boosting system},
+  author={Chen, Tianqi and Guestrin, Carlos},
+  booktitle={Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={785--794},
+  year={2016}
+}
+
+@incollection{高斯混合模型理论与应用,
+  title={Gaussian mixture models},
+  author={Reynolds, Douglas A},
+  booktitle={Encyclopedia of Biometrics},
+  pages={741--741},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{深度学习异常检测综述,
+  title={Deep learning for anomaly detection: A review},
+  author={Pang, Guansong and Shen, Chunhua and Cao, Longbing and Hengel, Anton Van Den},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={54},
+  number={2},
+  pages={1--38},
+  year={2021}
+}
+
+@article{随机森林算法原理论文,
+  title={Random forests},
+  author={Breiman, Leo},
+  journal={Machine learning},
+  volume={45},
+  number={1},
+  pages={5--32},
+  year={2001},
+  publisher={Springer}
 }
